@@ -1,5 +1,5 @@
 var config = {
-  api_url: 'https://kc.turkus.net/api/v1',
+  api_url: 'https://kc.dardrains.org/api/v1',
   form_rules: [
     {
       name: 'Drain segments',
@@ -37,7 +37,7 @@ var config = {
       selectors: [{
           field: 'description',
           operator: 'regex',
-          value: '[A-Z]+_drain_point_',
+          value: '[A-Z]+_Drain_Point_',
           options: 'i'
         }
       ],
@@ -96,7 +96,7 @@ var config = {
       selectors: [{
           field: 'description',
           operator: 'regex',
-          value: '[A-Z]+_drain_special_comment_',
+          value: '[A-Z]+_Special_comment_',
           options: 'i'
         }
       ],
